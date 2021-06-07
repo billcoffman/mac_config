@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#echo Hello Bash_Aliases Python\!
+
+alias cdpy='sd /Users/bcoff/dev/pycharm/; ls'
+alias cdsql='sd /Users/bcoff/dev/pycharm/sql1'
+
+export WORKON=${HOME}/dev/virtualenvs
+export WORKON_HOME=${HOME}/dev/virtualenvs
+alias python=python3
+alias py=python3
+alias py3=python3
+alias py2=/usr/local/Cellar/python@2/2.7.16/bin/python2
+alias python2=/usr/local/Cellar/python@2/2.7.16/bin/python2

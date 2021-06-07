@@ -1,0 +1,5 @@
+export WORKON=${HOME}/dev/virtualenvs
+export WORKON_HOME=${HOME}/dev/virtualenvs
+export WORKON_HOME=${HOME}/dev/virtualenvs
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
+source ~/bin/virtualenvwrapper.sh

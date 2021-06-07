@@ -1,0 +1,16 @@
+
+alias sshvb='ssh -p 2222 bcoff@localhost'
+alias scpvb='scp -P 2222 bcoff@localhost:'
+alias s="source $HOME/.bash_profile"
+
+scp2vb() {
+    scp -P 2222 $1 bill@localhost:
+    echo copy completed;
+}
+
+alias oracloud_sandbox='ssh ubuntu@132.145.170.3'
+alias oracloud_dev='ssh ubuntu@3'
+
+alias pnp0='ssh bcoff@192.168.100.11'
+alias pnp_cp2='scp -r \{\} bcoff@192.168.100.11:'
+alias pnp_cpfrom='scp -r bcoff@192.168.100.11:\{\}'

@@ -1,0 +1,64 @@
+#!/bin/bash
+
+
+###############
+##### JOBS ####
+###############
+
+alias j=jobs
+alias f='fg'
+alias ff='fg -'
+alias f1='fg 1'
+alias f2='fg 2'
+alias f3='fg 3'
+alias f4='fg 4'
+alias f5='fg 5'
+alias f6='fg 6'
+alias f7='fg 7'
+alias f8='fg 8'
+alias f9='fg 9'
+alias f10='fg 10'
+alias f11='fg 11'
+alias f12='fg 12'
+alias f13='fg 13'
+alias f14='fg 14'
+alias f15='fg 15'
+alias f16='fg 16'
+
+
+#################
+###### TMUX #####
+#################
+
+# Tmux create new, named sessen.  "tn vidgf"
+alias tn='tmux new -s'
+
+# Attach to named.
+alias ta='tmux attatch -t'
+
+# Kill tmux session.  "trm vidgf"
+alias trm='tmux kill-session -t'
+alias tkill='tmux kill-session -t'
+alias tkillall="tmux ls | grep : | cut -d. -f1 | awk '{print substr($1, 0, length($1)-1)}' | xargs kill"
+
+# List sessions.
+alias tls='tmux ls'
+
+# Attach by number.
+alias t0='echo hmmm ... tmux ... 0?'
+alias t1='tmux attatch -n 1'
+alias t2='tmux attatch -n 2'
+alias t3='tmux attatch -n 3'
+alias t4='tmux attatch -n 4'
+alias t5='tmux attatch -n 5'
+alias t6='tmux attatch -n 6'
+alias t7='tmux attatch -n 7'
+alias t8='tmux attatch -n 8'
+alias t9='tmux attatch -n 9'
+alias t10='tmux attatch -n 10'
+alias t11='tmux attatch -n 11'
+alias t12='tmux attatch -n 12'
+alias t13='tmux attatch -n 13'
+alias t14='tmux attatch -n 14'
+alias t15='tmux attatch -n 15'
+alias t16='tmux attatch -n 16'

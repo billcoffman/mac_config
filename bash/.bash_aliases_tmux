@@ -1,0 +1,45 @@
+#!/bin/bash
+
+#################
+###### TMUX #####
+#################
+
+# Tmux create new, named sessen.  "tn vidgf"
+alias tn='tmux new -s'
+
+# Attach to named.
+alias ta='tmux attach -t'
+
+# Kill tmux session: trm vidgf
+alias trm='tmux kill-session -t'
+alias tkill='tmux kill-session -t'
+alias tkillall='tmux ls|grep :|cut -d: -f1|xargs -n 1 tmux kill-session -t'
+
+# List sessions.
+alias tl='tmux ls'
+
+# Create new session: tn vidgf
+alias tn='tmux new -s'
+
+
+# Attach by number.
+alias t0='echo hmmm ... tmux ... 0?'
+alias t1='tmux attach -t 1'
+alias t2='tmux attach -t 2'
+alias t3='tmux attach -t 3'
+alias t4='tmux attach -t 4'
+alias t5='tmux attach -t 5'
+alias t6='tmux attach -t 6'
+alias t7='tmux attach -t 7'
+alias t8='tmux attach -t 8'
+alias t9='tmux attach -t 9'
+alias t10='tmux attach -t 10'
+alias t11='tmux attach -t 11'
+alias t12='tmux attach -t 12'
+alias t13='tmux attach -t 13'
+alias t14='tmux attach -t 14'
+alias t15='tmux attach -t 15'
+alias t16='tmux attach -t 16'
+
+
+alias th='less ~/.tmux_help'
